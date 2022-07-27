@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0px;}
+
+
+
+
+body{background-color: rgb(255, 255, 202);}
+
+header{
+    background-color:rgb(255, 255, 202);
+    display: flex;
+    height: 90px;
+    align-items: center;
+    position: fixed;
+    width: 100%;}
+
+ .girassol img{width: 700px; border-radius: 50px; margin-top: 80px;}
+ 
+
+.home ul{display: flex;
+    justify-content:flex-end;}
+    
+
+    nav ul{display: flex;
+        list-style: none;
+        margin-left: 350px;}
+    
+    nav ul li{ margin-left: 15px; margin-right: 30px;}
+
+a{  font-size: 25px;
+        text-decoration: none;
+        color: rgb(115, 146, 62);
+        font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    }
+    
+a:hover{color: rgb(126, 65, 15);
+    } 
+
+h1{text-align: center; margin: 15px; color: rgb(115, 146, 62); font-size: 40px;}
+h2{color: rgb(136, 87, 32); font-style: italic;}
+h3{color: rgb(36, 85, 17); margin-top: 10px;}
+h4{color: rgb(136, 87, 32); margin-bottom: 30px; font-family: Georgia, 'Times New Roman', Times; font-style: italic;} 
+h5{color: rgb(180, 85, 7); font-style:italic; font-size: 30px; font-family:Georgia, 'Times New Roman', Times, serif; margin: 70px;}
+p{margin-right: 60px; margin-left: 60px; color: rgb(53, 34, 12); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+    .inicio{background-color: rgb(170, 201, 117);
+    height: 400px;
+    padding-top: 250px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;}
+    
+    .plantas img{width: 1200px;
+    margin-top: 40px;}
+
+    .sobre{ 
+        background-color: rgb(170, 201, 117);
+        height: 650px;
+        padding-top: 150px;
+        font-size: 30px;
+    }
+
+    .festival{ 
+        background-color: rgb(170, 201, 117);
+        height: 1200px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
+
+    .contato{ 
+        background-color: rgb(170, 201, 117);
+        height: 850px;
+        font-size: 30px;
+        padding-top: 150px;
+    }
